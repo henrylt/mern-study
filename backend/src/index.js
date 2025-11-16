@@ -4,7 +4,7 @@ import { initDatabase } from './db/init.js'
 import { app } from './app.js'
 try {
   await initDatabase()
-  const PORT = process.env.PORT
+  const PORT = process.env.PORT || 8080
   app.listen(PORT)
   console.info(`express server running on http://localhost:${PORT}`)
 } catch (err) {
