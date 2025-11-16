@@ -1,5 +1,5 @@
 FROM node:20 AS build
-ARG VITE_BACKEND_URL=https://supreme-space-waddle-77vgp4r7wwfpq7x-3001.app.github.dev/api/v1
+ARG VITE_BACKEND_URL=https://supreme-space-palm-tree-5p567j4vw6rh5v4-3001.app.github.dev/api/v1
 WORKDIR /build
 COPY package.json .
 COPY package-lock.json .
