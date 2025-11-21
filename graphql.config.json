@@ -1,0 +1,4 @@
+{
+  "schema": "https://supreme-space-palm-tree-5p567j4vw6rh5v4-3001.app.github.dev/graphql",
+  "documents": "src/api/graphql/**/*.{js,jsx}"
+}
